@@ -1,2 +1,2 @@
 ## Reference:
-[Animated DNA Helix on CodePen](https://codepen.io/yitaverse/full/ZEgKEvp)
+[Responsive Animated DNA Helix on CodePen](https://codepen.io/yitaverse/full/ZEgKEvp)
