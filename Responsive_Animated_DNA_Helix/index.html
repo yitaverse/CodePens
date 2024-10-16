@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DNA Animation</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="left-div">
+			<img src="https://raw.githubusercontent.com/yitaverse/CodePens/refs/heads/main/Animated_DNA_Helix/img/B-DNA_squared.png" alt="DNA helix">
+		</div>
+		<div class="right-div">
+			<!-- Contenitore esterno per la rotazione -->
+			<div class="dna-rotation">
+				<!-- Contenitore interno per la scala -->
+				<div class="dna">
+					<div class="base"></div>
+					<div class="base"></div>
+					<div class="base"></div>
+					<div class="base"></div>
+					<div class="base"></div>
+					<div class="base"></div>
+					<div class="base"></div>
+					<div class="base"></div>
+					<div class="base"></div>
+					<div class="base"></div>
+					<div class="base"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		const images = document.querySelectorAll('img');
+		images.forEach(img => {
+			img.addEventListener('mousedown', function(event) {
+				event.preventDefault();
+			});
+		});
+	});
+	</script>
+</body>
+</html>
